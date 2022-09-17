@@ -182,19 +182,19 @@
   .responsive-table tbody td[data-type=currency] {
     text-align: right;
   }
-  .responsive-table tbody td[data-title]:before {
+  .responsive-table tbody td:before {
     content: attr(data-title);
     float: left;
     font-size: 0.8em;
     color: rgba(0, 0, 0, 0.54);
   }
   @media (min-width: 30em) {
-    .responsive-table tbody td[data-title]:before {
+    .responsive-table tbody td:before {
       font-size: 0.9em;
     }
   }
   @media (min-width: 48em) {
-    .responsive-table tbody td[data-title]:before {
+    .responsive-table tbody td:before {
       content: none;
     }
   }
